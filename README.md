@@ -16,3 +16,15 @@ npm run dev
 ```
 npm run build
 ```
+
+### エディタの設定
+#### VSCode
+コードの自動整形を有効にするため`.vscode/settings.json`へ下記を追記する
+
+```json
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+} 
+```
